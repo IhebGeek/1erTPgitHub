@@ -1,1 +1,682 @@
-trjtrjtrgjtrfnjrthjtrhjtrhjtrhjerhjtrjdtykjds
+<!DOCTYPE>
+<html>
+<head>
+	<title></title>
+
+</head>
+<body>
+
+  <div class="row" id="planning"><!--row -->
+           <!-------------------------------- partie section -------------------------------->
+             <div class="col-md-12" style="margin-top: 2.5%; border: 2px solid rgb(255, 135, 0); margin-left: 2.6%; width: 95%; min-width: 900px ! important;" id="TablePromoPlan">
+                <div class="row" style="background-color: rgb(255, 135, 0); vertical-align: middle; cursor: default; height: 6.5%; min-height: 6.5% ! important;">
+                    <div class="mycontent-left" style="margin-top: -0.1%;">
+                        <span class="glyphicon glyphicon-pencil" style="color: white; font-size: 19px; margin-top: 20%;"></span> 
+                    </div>
+                    <p style="color: white; margin-left: 5%; margin-top: -3.9%; font-size: 29px;">Planning</p>
+                    <div>
+                           <a href="#" style="text-decoration: none !important;">
+                             <span class="glyphicon glyphicon-cog" style="color: white; float: right; margin-top: -4.1%; margin-right: 1%; font-size: 24px;"></span>
+                          </a>
+                        </div>
+                </div>
+                <div class="row">
+                &nbsp;
+              </div>
+               <div class="row">
+                <div class="col-md-12" id="tab_Promo">
+                   <!----------------------- la table de la section ---------------------->
+                      <table class="table table-striped table-bordered">
+                            <thead>
+                              <tr style="background-image: linear-gradient(to right, #005DFF, rgba(254, 83, 8, 0.8), rgba(5, 194, 0, 0.6));">
+                                <th style="width: 77px; background-color: white; border:0px; text-align: center;">&nbsp;</th>
+                                <th style="text-align: center;width: 113px;"><span style="font-size: 21px; color: white; text-shadow: 1px 0px 1px rgb(90, 90, 90);">Dimanche</span></th>
+                                <th style="text-align: center;width: 113px;"><span style="font-size: 21px; color: white; text-shadow: 1px 0px 1px rgb(90, 90, 90);">Lundi</span></th>
+                                <th style="text-align: center;width: 113px;"><span style="font-size: 21px; color: white; text-shadow: 1px 0px 1px rgb(90, 90, 90);">Mardi</span></th>
+                                <th style="text-align: center;width: 113px;"><span style="font-size: 21px; color: white; text-shadow: 1px 0px 1px rgb(90, 90, 90);">Mercredi</span></th>
+                                <th style="text-align: center;width: 113px;"><span style="font-size: 21px; color: white; text-shadow: 1px 0px 1px rgb(90, 90, 90);">Jeudi</span></th>
+                              </tr>
+                            </thead>
+
+
+                            <tbody>
+
+
+                              <!-- 1ere ligne sambre-->
+                            	<tr>
+                            		<td style="vertical-align: middle; text-align: center;">
+                            			<span style="font-family: Impact,fantasy; font-size: 36px; line-height: 1;">8h<br>30</span>
+                            			<br>
+                            			<samp style="font-family: FreeMono,monospace; font-size: 36px;">10</samp>
+                            		</td>
+                            		     <!------------------------- La 1er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="11Cel11">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel11" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A11');" data-toggle="modal" style="color: white;">
+								 	                	   <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;"></span>
+								 	                	 </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire11" value="8:30 a 10h" />
+								 	                <input type="hidden" id="jour11" value="dimanche" />
+								 	                <input type="hidden" id="id11" value="A11" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 1er colonne ---------------------->
+
+							 	        <!------------------------- La 2er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="21Cel21">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel21" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A21');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire21" value="8:30 a 10h" />
+								 	                <input type="hidden" id="jour21" value="lundi" />
+								 	                <input type="hidden" id="id21" value="A21" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 2er colonne ---------------------->
+
+							 	        <!------------------------- La 3er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="31Cel31">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel31" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A31');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire31" value="8:30 a 10h" />
+								 	                <input type="hidden" id="jour31" value="mardi" />
+								 	                <input type="hidden" id="id31" value="A31" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 3er colonne ---------------------->
+
+							 	        <!------------------------- La 4er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="41Cel41">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel41" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A41');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire41" value="8:30 a 10h" />
+								 	                <input type="hidden" id="jour41" value="mercredi" />
+								 	                <input type="hidden" id="id41" value="A41" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 4er colonne ---------------------->
+
+							 	        <!------------------------- La 5er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="51Cel51">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel51" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A51');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire51" value="8:30 a 10h" />
+								 	                <input type="hidden" id="jour51" value="jeudi" />
+								 	                <input type="hidden" id="id51" value="A51" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 5er colonne ---------------------->
+                            	</tr>
+
+                            	<!-- 1ere ligne sambre -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            	<!-- 2eme ligne-->
+                            	<tr>
+                            		<td style="vertical-align: middle; text-align: center;">
+                            			<span style="font-family: Impact,fantasy; font-size: 36px; line-height: 1;">10h</span>
+                            			<br>
+                            			<samp style="font-family: FreeMono,monospace; font-size: 36px; line-height: 1;">11<br>30</samp>
+                            		</td>
+                            		     <!------------------------- La 1er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="12Cel12">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel12" style="min-height: 144px; background-color: #F8F8F8;">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A12');" data-toggle="modal" style="color: white;">
+								 	                	   <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;"></span>
+								 	                	 </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire12" value="10 a 11h30" />
+								 	                <input type="hidden" id="jour12" value="dimanche" />
+								 	                <input type="hidden" id="id12" value="A12" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 1er colonne ---------------------->
+
+							 	        <!------------------------- La 2er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="22Cel22">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel22" style="min-height: 144px; background-color: #F8F8F8;">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A22');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire22" value="10 a 11h30" />
+								 	                <input type="hidden" id="jour22" value="lundi" />
+								 	                <input type="hidden" id="id22" value="A22" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 2er colonne ---------------------->
+
+							 	        <!------------------------- La 3er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="32Cel32">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel32" style="min-height: 144px; background-color: #F8F8F8;">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A32');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire32" value="10 a 11h30" />
+								 	                <input type="hidden" id="jour32" value="mardi" />
+								 	                <input type="hidden" id="id32" value="A32" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 3er colonne ---------------------->
+
+							 	        <!------------------------- La 4er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="42Cel42">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel42" style="min-height: 144px; background-color: #F8F8F8;">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A42');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire42" value="10 a 11h30" />
+								 	                <input type="hidden" id="jour42" value="mercredi" />
+								 	                <input type="hidden" id="id42" value="A42" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 4er colonne ---------------------->
+
+							 	        <!------------------------- La 5er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="52Cel52">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel52" style="min-height: 144px; background-color: #F8F8F8;">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A52');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire52" value="10 a 11h30" />
+								 	                <input type="hidden" id="jour52" value="jeudi" />
+								 	                <input type="hidden" id="id52" value="A52" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 5er colonne ---------------------->
+                            	</tr>
+
+                            	<!-- 2eme ligne -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              <!-- 3eme ligne sambre-->
+                            	<tr>
+                            		<td style="vertical-align: middle; text-align: center;">
+                            			<span style="font-family: Impact,fantasy; font-size: 36px; line-height: 1;">13h</span>
+                            			<br>
+                            			<samp style="font-family: FreeMono,monospace; font-size: 36px;">14</br>30</samp>
+                            		</td>
+                            		     <!------------------------- La 1er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="13Cel13">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel13" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A13');" data-toggle="modal" style="color: white;">
+								 	                	   <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;"></span>
+								 	                	 </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire13" value="13h a 14h30" />
+								 	                <input type="hidden" id="jour13" value="dimanche" />
+								 	                <input type="hidden" id="id13" value="A13" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 1er colonne ---------------------->
+
+							 	        <!------------------------- La 2er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="23Cel23">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel23" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A23');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire23" value="13h a 14h30" />
+								 	                <input type="hidden" id="jour23" value="lundi" />
+								 	                <input type="hidden" id="id23" value="A23" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 2er colonne ---------------------->
+
+							 	        <!------------------------- La 3er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="33Cel33">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel33" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A33');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire33" value="13h a 14h30" />
+								 	                <input type="hidden" id="jour33" value="mardi" />
+								 	                <input type="hidden" id="id33" value="A33" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 3er colonne ---------------------->
+
+							 	        <!------------------------- La 4er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="43Cel43">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel43" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A43');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire43" value="13h a 14h30" />
+								 	                <input type="hidden" id="jour43" value="mercredi" />
+								 	                <input type="hidden" id="id43" value="A43" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 4er colonne ---------------------->
+
+							 	        <!------------------------- La 5er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="53Cel53">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel53" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A53');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire53" value="13h a 14h30" />
+								 	                <input type="hidden" id="jour53" value="jeudi" />
+								 	                <input type="hidden" id="id53" value="A53" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 5er colonne ---------------------->
+                            	</tr>
+
+                            	<!-- 3eme ligne sambre -->
+
+
+
+
+
+
+                            	<tr style="background-image:linear-gradient(to right, #A7C7FF, rgba(242, 92, 23, 0.8), #C7CE60)">
+                            		<td colspan="6" style="padding: 4px;">
+                            		</td>
+                            	</tr>
+
+
+
+
+
+
+
+                            	<!-- 4eme ligne-->
+                            	<tr>
+                            		<td style="vertical-align: middle; text-align: center;">
+                            			<span style="font-family: Impact,fantasy; font-size: 36px; line-height: 1;">14</br>30</span>
+                            			<br>
+                            			<samp style="font-family: FreeMono,monospace; font-size: 36px; line-height: 1;">16h</samp>
+                            		</td>
+                            		     <!------------------------- La 1er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="14Cel14">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel14" style="min-height: 144px; background-color: #F8F8F8;">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A14');" data-toggle="modal" style="color: white;">
+								 	                	   <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;"></span>
+								 	                	 </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire14" value="14h30 a 16h" />
+								 	                <input type="hidden" id="jour14" value="dimanche" />
+								 	                <input type="hidden" id="id14" value="A14" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 1er colonne ---------------------->
+
+							 	        <!------------------------- La 2er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="24Cel24">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel24" style="min-height: 144px; background-color: #F8F8F8;">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A24');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire24" value="14h30 a 16h" />
+								 	                <input type="hidden" id="jour24" value="lundi" />
+								 	                <input type="hidden" id="id24" value="A24" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 2er colonne ---------------------->
+
+							 	        <!------------------------- La 3er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="34Cel34">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel34" style="min-height: 144px; background-color: #F8F8F8;">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A34');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire34" value="14h30 a 16h" />
+								 	                <input type="hidden" id="jour34" value="mardi" />
+								 	                <input type="hidden" id="id34" value="A34" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 3er colonne ---------------------->
+
+							 	        <!------------------------- La 4er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="44Cel44">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel44" style="min-height: 144px; background-color: #F8F8F8;">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A44');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire44" value="14h30 a 16h" />
+								 	                <input type="hidden" id="jour44" value="mercredi" />
+								 	                <input type="hidden" id="id44" value="A44" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 4er colonne ---------------------->
+
+							 	        <!------------------------- La 5er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="54Cel54">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel54" style="min-height: 144px; background-color: #F8F8F8;">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A54');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire54" value="14h30 a 16h" />
+								 	                <input type="hidden" id="jour54" value="jeudi" />
+								 	                <input type="hidden" id="id54" value="A54" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 5er colonne ---------------------->
+                            	</tr>
+
+                            	<!-- 4eme ligne -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              <!-- 5eme ligne sambre-->
+                            	<tr>
+                            		<td style="vertical-align: middle; text-align: center;">
+                            			<span style="font-family: Impact,fantasy; font-size: 36px; line-height: 1;">16h</span>
+                            			<br>
+                            			<samp style="font-family: FreeMono,monospace; font-size: 36px;">17</br>30</samp>
+                            		</td>
+                            		     <!------------------------- La 1er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="15Cel15">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel15" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A15');" data-toggle="modal" style="color: white;">
+								 	                	   <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;"></span>
+								 	                	 </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire15" value="16h a 17h30" />
+								 	                <input type="hidden" id="jour15" value="dimanche" />
+								 	                <input type="hidden" id="id15" value="A15" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 1er colonne ---------------------->
+
+							 	        <!------------------------- La 2er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="25Cel25">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel25" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A25');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire25" value="16h a 17h30" />
+								 	                <input type="hidden" id="jour25" value="lundi" />
+								 	                <input type="hidden" id="id25" value="A25" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 2er colonne ---------------------->
+
+							 	        <!------------------------- La 3er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="35Cel35">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel35" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A35');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire35" value="16h a 17h30" />
+								 	                <input type="hidden" id="jour35" value="mardi" />
+								 	                <input type="hidden" id="id35" value="A35" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 3er colonne ---------------------->
+
+							 	        <!------------------------- La 4er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="45Cel45">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel45" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A45');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire45" value="16h a 17h30" />
+								 	                <input type="hidden" id="jour45" value="mercredi" />
+								 	                <input type="hidden" id="id45" value="A45" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 4er colonne ---------------------->
+
+							 	        <!------------------------- La 5er colonne ---------------------->
+                            		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
+							 	           <div id="55Cel55">
+							 	           	
+							 	           </div>
+							 	           <div id="Cel55" style="min-height: 144px; background-color: rgb(224, 224, 224);">
+								 	                <div class="fc-day-number">
+								 	                	 <a href="#SeanceModal" onclick="IdCellule('A55');" data-toggle="modal" style="color: white;">
+								 	                	     <span class="glyphicon glyphicon-plus" style="text-decoration: none ! important; font-size: 20pt; margin-top: 27%; color: #868686 ! important;">
+								 	                	     	
+								 	                	     </span>
+								 	                	  </a>
+								 	                </div>
+								 	                <input type="hidden"  id="horaire55" value="16h a 17h30" />
+								 	                <input type="hidden" id="jour55" value="jeudi" />
+								 	                <input type="hidden" id="id55" value="A55" />
+							 	           </div>
+			                                           
+							 	      </td>
+							 	        <!-------------------------Fin La 5er colonne ---------------------->
+                            	</tr>
+
+                            	<!-- 5eme ligne sambre -->
+                            </tbody>
+
+                      </table>
+                   <!----------------------- Fin la table de la section ---------------------->
+                   </br>
+                       
+                </div>
+                  
+                   
+              </div>
+                
+           </div> <!-- fin div col-md-12 -->
+                  <!-------------------------------- Fin partie section -------------------------------->
+       </div><!--  fin row -->
+
+</body>
+</html>
