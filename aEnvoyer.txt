@@ -38,7 +38,11 @@
                               </tr>
                             </thead>
 
-
+ajouter la fonctionnalité de gestion des fournisseurs
+kjhskjhf
+kjsdhfkjhds
+kdskjdkj
+ksdhkjlksjf
                             <tbody>
 
 
@@ -48,8 +52,7 @@
                             			<span style="font-family: Impact,fantasy; font-size: 36px; line-height: 1;">8h<br>30</span>
                             			<br>
                             			<samp style="font-family: FreeMono,monospace; font-size: 36px;">10</samp>
-                            		</td>
-                            		     <!------------------------- La 1er colonne ---------------------->
+                            	c'est pas bon
                             		<td style="text-align: center; vertical-align: middle ! important; padding: 0;">
 							 	           <div id="11Cel11">
 							 	           	
